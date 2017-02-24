@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff8a80"
+    tools:context="com.example.android.playwithme.MakeVase">
+
+    <LinearLayout
+        android:id="@+id/make_vase_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Headers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/make_vase_intro_text" />
+
+        <TextView
+            style="@style/HeaderTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/required_materials_header" />
+
+        <TextView
+            style="@style/ListItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/empty_water_bottle" />
+
+        <TextView
+            style="@style/ListItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/straws" />
+
+        <TextView
+            style="@style/ListItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tissue_paper" />
+
+        <TextView
+            style="@style/ListItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stapler_glue" />
+
+        <ImageView
+            style="@style/ImageLayouts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vase_supplies" />
+
+
+        <TextView
+            android:id="@+id/right_text_one"
+            style="@style/InstructionsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vase_step_one" />
+
+        <ImageView
+            style="@style/ImageLayouts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/right_text_one"
+            android:src="@drawable/cut_bottle" />
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vase_step_two" />
+
+        <ImageView
+            style="@style/ImageLayouts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/paper_square" />
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vase_step_three" />
+
+        <ImageView
+            style="@style/ImageLayouts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/paper_folded_once" />
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vase_step_four" />
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vase_step_five" />
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vase_step_six" />
+
+        <ImageView
+            style="@style/ImageLayouts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/paper_trimmed" />
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vase_step_seven" />
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vase_step_eight" />
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vase_step_nine" />
+
+        <ImageView
+            style="@style/ImageLayouts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/paper_glued" />
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vase_step_ten" />
+
+        <ImageView
+            style="@style/ImageLayouts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/paper_inserted" />
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vase_step_eleven" />
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vase_step_eleven_b" />
+
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vase_step_twelve" />
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vase_step_thirteen" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#330033">
+
+            <ImageView
+                android:id="@+id/vase_final"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/image_flower_vase" />
+
+            <TextView
+                style="@style/InstructionsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/vase_final"
+                android:text="@string/vase_step_fourteen" />
+        </RelativeLayout>
+
+        <ImageButton
+            style="@style/DoneButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="backToMain"
+            android:src="@drawable/vase_done" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff8a80"
+    tools:context="com.example.android.playwithme.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.playwithme.MainActivity">
+
+        <TextView
+            style="@style/Headers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/intro_text" />
+
+        <ImageButton
+            android:id="@+id/make_vase_button"
+            style="@style/ActivityButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:onClick="openVaseActivity"
+            android:src="@drawable/make_vase_button" />
+
+        <ImageButton
+            style="@style/ActivityButtons"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="openLegoActivity"
+            android:src="@drawable/make_lego_mini_house" />
+
+        <ImageButton
+            style="@style/ActivityButtons"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="openMinecraftActivity"
+            android:src="@drawable/make_pig" />
+
+        <ImageButton
+            style="@style/ActivityButtons"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="openAcornActivity"
+            android:src="@drawable/make_acorn_whistle" />
+
+        <ImageButton
+            style="@style/ActivityButtons"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="openDrumActivity"
+            android:src="@drawable/make_steel_drum" />
+
+    </LinearLayout>
+</ScrollView>

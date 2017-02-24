@@ -1,0 +1,90 @@
+<resources>
+
+    <!--these are strings used on the main activity page-->
+    <string name="app_name">Play With Me</string>
+    <string name="intro_text">Which activity would you like to try?</string>
+    <string name="make_flowers">Make a vase and flowers</string>
+
+    <!--these are strings used throughout the app-->
+    <string name="required_materials_header">Here\'s what you need:</string>
+
+    <!--these are the strings for the make a vase activity-->
+    <string name="title_activity_make_vase">Make Flowers and Vase</string>
+    <string name="make_vase_intro_text">Make a vase and flowers with ordinary materials!</string>
+    <string name="empty_water_bottle">-Empty Plastic Water Bottle-</string>
+    <string name="straws">-Straws-</string>
+    <string name="tissue_paper">-Thin paper, such as tissue paper. Cloth-like plastic works well, too.-</string>
+    <string name="stapler_glue">-Stapler or Glue-</string>
+    <string name="vase_step_one">Cut curved part of bottle off. Have an older child or adult help with this step. A taller vase will be less likely to tip over.</string>
+    <string name="vase_step_two">Cut a square shape (about 8" x 8") out of tissue paper. Perfection is not necessary.</string>
+    <string name="vase_step_three">Fold paper in half, corner to corner, to make a triangle.</string>
+    <string name="vase_step_four">Fold again in half corner to corner.</string>
+    <string name="vase_step_five">Fold 2 more times the same way.</string>
+    <string name="vase_step_six">Trim long edge of triangle as shown.</string>
+    <string name="vase_step_seven">Trim corners into curved shape.</string>
+    <string name="vase_step_eight">Pinch point opposite of long edge to crinkle paper.</string>
+    <string name="vase_step_nine">Apply glue to pinched end.</string>
+    <string name="vase_step_ten">Insert end tightly into straw. Don\'t worry if you crush your flower a little during this step, you will fluff it up later.</string>
+    <string name="vase_step_eleven">Let dry according to glue instructions.</string>
+    <string name="vase_step_eleven_b">Gently separate layers of paper so that the flower appears fuller.</string>
+    <string name="vase_step_twelve">Make additional flowers as desired.</string>
+    <string name="vase_step_thirteen">Arrange flowers into vase.</string>
+    <string name="vase_step_fourteen">Optional: You may wish to decorate your vase by creating a design on paper, then taping the paper around the vase or you can glue sequins and yard to vase. You can place stones in the base of the vase to prevent tipping.</string>
+
+    <!--these are the strings for make a pig page-->
+    <string name="title_activity_make_minecraft">Make a Minecraft Pig Megalith</string>
+    <string name="pig_title">Make a Pig Megalith in Minecraft!</string>
+    <string name="pig_intro">This tutorial assumes that you have the game Minecraft and are familiar with using it.</string>
+    <string name="pig_step_one">Use a magenta stained clay block. Make a single row of 15 blocks.</string>
+    <string name="pig_step_two">From each side, create a partial second row. Add 4 blocks of magenta stained clay blocks on each side.</string>
+    <string name="pig_step_three">Fill in the middle of this row with 7 pink stained clay blocks. Add another row of 7 pink on top of this row of 7.</string>
+    <string name="pig_step_four">Above this row, add 2 gray stained clay block from each side. Add another row of 2 on top of each gray row. Fill in the middle of the gray blocks with purple stained clay blocks. Top that row with 2 rows of pink stained clay blocks.</string>
+    <string name="pig_step_six">Fill in sides up to top of snout with magenta stained clay blocks.</string>
+    <string name="pig_step_seven">Starting with the left edge on the next row, place 2 black stained clay blocks. Stack 2 more rows on top of that for a total of 6 black stained blocks. Repeat on the other side of the row.</string>
+    <string name="pig_step_eight">Fill in toward the center 2 blocks of quartz, and stack 3 high, same total size as the black blocks. Repeat on the other side.</string>
+    <string name="pig_step_nine">Fill in between the eyes with magenta blocks.</string>
+    <string name="pig_step_ten">Place 2 rows of magenta stained clay blocks over the eye rows and you are finished!</string>
+
+    <!--these are the strings for the make a steel drum activity-->
+    <string name="title_activity_make_drum">Make a Steel Drum</string>
+    <string name="make_drum_intro_text">Make a steel drum with ordinary materials! This is a project you can do for a younger child or an older child may be able to do some of the steps by themselves. Close supervision should be used on this project.</string>
+    <string name="large_can">-Large can with a soft metal bottom and removable lid-</string>
+    <string name="pencils">-2 Unsharpened pencils-</string>
+    <string name="rubber_bands">-2 rubber bands-</string>
+    <string name="mallet">-A small mallet or something suitable for pounding-</string>
+    <string name="screw_drive">-Rock or other hard item with a large flat (not sharp) edge. Adults or older children should handle this item. You can experiment with different items to see which works best for you.-</string>
+    <string name="drum_step_one">Prepare your can by washing and removing label if necessary. Soaking the can in water may help with this step.</string>
+    <string name="drum_step_two">Make your drumsticks (aka Mallets) by wrapping a rubber band around the eraser part of each pencil. You may use multiple rubber bands to make a bigger mallet head.</string>
+    <string name="drum_step_three">Place can on a flat surface and begin by hammering down a section of the flat metal side of can. You should hammer a soft trapezoid shape from the edge. Take a look at the picture before starting.</string>
+    <string name="drum_step_four">Gently hammer the reverse of the trapezoid out (from inside the can), then flip over and make sure the trapezoid line is still pressed down.</string>
+    <string name="drum_step_five">Test with your homemade drumsticks to see if the pitch is different from the trapezoid part to the main part. If it\'s not, you may need to work the reverse side again.</string>
+    <string name="drum_step_six">Make another trapezoid of a different size next to the one you created, and hammer it out from the inside again to make another section.</string>
+    <string name="drum_step_seven">Keep making new sections of different sizes until all the space is filled with sections.</string>
+    <string name="drum_step_eight">Any leftover middle section can be hammered in or out, depending upon the sound you prefer. Keep tinkering with the different sections until you acheive a sound you like.</string>
+    <string name="drum_step_nine">You may wish to play your drum in the crook of your arm so the sound can resonate out of the bottom of the drum. Experiment with different ways to make the sound.</string>
+    <string name="drum_step_ten">Congratulations! You\'ve made a steel drum!</string>
+
+    <!--these are the strings for the make an acorn whistle-->
+    <string name="title_activity_make_acorn">Make an Acorn Whistle</string>
+    <string name="make_acorn_intro_text">Create a whistle from an acorn cap. All you need to do is explore outside to find an oak tree, and you will likely find acorns or acorn caps.</string>
+    <string name="acorn_cap">-Acorn cap-</string>
+    <string name="acorn_hands">-Your hands!-</string>
+    <string name="acorn_step_one">Gather a few acorn caps from your neighborhood or forest preserve. They should be in good shape with minimal to no knicks along the edge.</string>
+    <string name="acorn_step_two">Place your thumbs over the open portion of the cap so that your knuckles meet in the middle (and are bent) and forming a \"V\" shape. The bottom of the V should be in the center of the cap.</string>
+    <string name="acorn_step_three">Put your bottom lip on your knuckles, firm up your lips, and blow. You may need to experiment with where you place your thumbs, lips, and the angle of the acorn cap to get the best sound.</string>
+    <string name="acorn_step_four">Congratulations! You can now play an acorn whistle!</string>
+
+
+    <!--these are the strings for the make a lego mini-house-->
+    <string name="title_activity_make_lego">Make a Lego Mini-House</string>
+    <string name="make_lego_intro_text">Use your Lego bricks to create a tiny house!</string>
+    <string name="lego_step_one">Place the 2 large green bricks side by side.</string>
+    <string name="lego_step_two">Place 3 gray bricks as shown.</string>
+    <string name="lego_step_three">Place down your lamp and tree as shown.</string>
+    <string name="lego_step_four">Make the garage by placing the 2 by 2 brick at the end of the driveway and topping it with the gray piece as shown.</string>
+    <string name="lego_step_five">Make the foundation for your house by placing the 1 by 4 bricks as shown below.</string>
+    <string name="lego_step_six">Use the 1 by 6 bricks to create the front of the house.</string>
+    <string name="lego_step_seven">Add the roof of the garage by using 2 wedge-shaped pieces.</string>
+    <string name="lego_step_eight">Place a 2 by 2 brick in the middle of the front of the house, and a wedge brick on each side.</string>
+    <string name="lego_step_nine">Place 2 more wedge bricks together on top of the house, then top with an antenna and your house is complete. Congratulations! You\'ve made a tiny Lego house!</string>
+</resources>

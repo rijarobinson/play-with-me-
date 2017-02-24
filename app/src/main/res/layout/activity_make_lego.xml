@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff8a80"
+    tools:context="com.example.android.playwithme.MakeLego">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Headers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/make_lego_intro_text" />
+
+        <ImageView
+            style="@style/ImageLayouts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lego_completed_house" />
+
+        <TextView
+            style="@style/HeaderTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/required_materials_header" />
+
+        <ImageView
+            style="@style/ImageLayouts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lego_materials" />
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lego_step_one" />
+
+        <ImageView
+            style="@style/ImageLayouts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lego_step_one" />
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lego_step_two" />
+
+        <ImageView
+            style="@style/ImageLayouts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lego_step_two" />
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lego_step_three" />
+
+        <ImageView
+            style="@style/ImageLayouts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lego_step_three" />
+
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lego_step_four" />
+
+        <ImageView
+            style="@style/ImageLayouts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lego_step_four" />
+
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lego_step_five" />
+
+        <ImageView
+            style="@style/ImageLayouts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lego_step_five" />
+
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lego_step_six" />
+
+        <ImageView
+            style="@style/ImageLayouts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lego_step_six" />
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lego_step_seven" />
+
+        <ImageView
+            style="@style/ImageLayouts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lego_step_seven" />
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lego_step_eight" />
+
+        <ImageView
+            style="@style/ImageLayouts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lego_step_eight" />
+
+        <TextView
+            style="@style/InstructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lego_step_nine" />
+
+        <ImageView
+            style="@style/ImageLayouts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lego_step_nine" />
+
+        <ImageButton
+            style="@style/DoneButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="backToMain"
+            android:src="@drawable/lego_done" />
+
+    </LinearLayout>
+</ScrollView>
